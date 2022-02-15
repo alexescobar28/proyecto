@@ -34,7 +34,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chkAsiento1 = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -42,11 +42,10 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.textNombre = new System.Windows.Forms.TextBox();
-            this.listView1 = new System.Windows.Forms.ListView();
             this.cmbPeliculas = new System.Windows.Forms.ComboBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.chkAsiento2 = new System.Windows.Forms.CheckBox();
+            this.chkAsiento3 = new System.Windows.Forms.CheckBox();
+            this.chkAsiento4 = new System.Windows.Forms.CheckBox();
             this.cmbSnacks = new System.Windows.Forms.ComboBox();
             this.cmbBebidas = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -61,6 +60,17 @@
             this.rdCombo2 = new System.Windows.Forms.RadioButton();
             this.rdCombo3 = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.chkAsiento5 = new System.Windows.Forms.CheckBox();
+            this.chkAsiento6 = new System.Windows.Forms.CheckBox();
+            this.chkAsiento7 = new System.Windows.Forms.CheckBox();
+            this.chkAsiento8 = new System.Windows.Forms.CheckBox();
+            this.chkAsiento9 = new System.Windows.Forms.CheckBox();
+            this.chkasiento10 = new System.Windows.Forms.CheckBox();
+            this.chkasiento11 = new System.Windows.Forms.CheckBox();
+            this.chkAsiento12 = new System.Windows.Forms.CheckBox();
+            this.label17 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,11 +115,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(38, 253);
+            this.label4.Location = new System.Drawing.Point(38, 303);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 13);
+            this.label4.Size = new System.Drawing.Size(32, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Butaca";
+            this.label4.Text = "Fila 1";
             // 
             // label6
             // 
@@ -120,15 +130,15 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "Comida";
             // 
-            // checkBox1
+            // chkAsiento1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(103, 252);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(69, 17);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "asiento 3";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkAsiento1.AutoSize = true;
+            this.chkAsiento1.Location = new System.Drawing.Point(105, 299);
+            this.chkAsiento1.Name = "chkAsiento1";
+            this.chkAsiento1.Size = new System.Drawing.Size(69, 17);
+            this.chkAsiento1.TabIndex = 7;
+            this.chkAsiento1.Text = "asiento 1";
+            this.chkAsiento1.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -194,15 +204,6 @@
             this.textNombre.Size = new System.Drawing.Size(88, 20);
             this.textNombre.TabIndex = 14;
             // 
-            // listView1
-            // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(24, 324);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(523, 126);
-            this.listView1.TabIndex = 15;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
             // cmbPeliculas
             // 
             this.cmbPeliculas.FormattingEnabled = true;
@@ -218,35 +219,35 @@
             this.cmbPeliculas.TabIndex = 17;
             this.cmbPeliculas.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // checkBox2
+            // chkAsiento2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(204, 252);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(69, 17);
-            this.checkBox2.TabIndex = 18;
-            this.checkBox2.Text = "asiento 2";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkAsiento2.AutoSize = true;
+            this.chkAsiento2.Location = new System.Drawing.Point(208, 299);
+            this.chkAsiento2.Name = "chkAsiento2";
+            this.chkAsiento2.Size = new System.Drawing.Size(69, 17);
+            this.chkAsiento2.TabIndex = 18;
+            this.chkAsiento2.Text = "asiento 2";
+            this.chkAsiento2.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // chkAsiento3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(301, 252);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(72, 17);
-            this.checkBox3.TabIndex = 19;
-            this.checkBox3.Text = "asiento 3 ";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.chkAsiento3.AutoSize = true;
+            this.chkAsiento3.Location = new System.Drawing.Point(290, 296);
+            this.chkAsiento3.Name = "chkAsiento3";
+            this.chkAsiento3.Size = new System.Drawing.Size(72, 17);
+            this.chkAsiento3.TabIndex = 19;
+            this.chkAsiento3.Text = "asiento 3 ";
+            this.chkAsiento3.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // chkAsiento4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(388, 252);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(69, 17);
-            this.checkBox4.TabIndex = 20;
-            this.checkBox4.Text = "asiento 4";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.chkAsiento4.AutoSize = true;
+            this.chkAsiento4.Location = new System.Drawing.Point(376, 296);
+            this.chkAsiento4.Name = "chkAsiento4";
+            this.chkAsiento4.Size = new System.Drawing.Size(69, 17);
+            this.chkAsiento4.TabIndex = 20;
+            this.chkAsiento4.Text = "asiento 4";
+            this.chkAsiento4.UseVisualStyleBackColor = true;
             // 
             // cmbSnacks
             // 
@@ -341,7 +342,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(229, 280);
+            this.button2.Location = new System.Drawing.Point(198, 388);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(106, 38);
             this.button2.TabIndex = 32;
@@ -392,11 +393,130 @@
             this.pictureBox1.TabIndex = 37;
             this.pictureBox1.TabStop = false;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(38, 327);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(32, 13);
+            this.label15.TabIndex = 38;
+            this.label15.Text = "Fila 2";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(38, 353);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(32, 13);
+            this.label16.TabIndex = 39;
+            this.label16.Text = "Fila 3";
+            // 
+            // chkAsiento5
+            // 
+            this.chkAsiento5.AutoSize = true;
+            this.chkAsiento5.Location = new System.Drawing.Point(105, 323);
+            this.chkAsiento5.Name = "chkAsiento5";
+            this.chkAsiento5.Size = new System.Drawing.Size(69, 17);
+            this.chkAsiento5.TabIndex = 40;
+            this.chkAsiento5.Text = "asiento 5";
+            this.chkAsiento5.UseVisualStyleBackColor = true;
+            this.chkAsiento5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
+            // 
+            // chkAsiento6
+            // 
+            this.chkAsiento6.AutoSize = true;
+            this.chkAsiento6.Location = new System.Drawing.Point(208, 323);
+            this.chkAsiento6.Name = "chkAsiento6";
+            this.chkAsiento6.Size = new System.Drawing.Size(69, 17);
+            this.chkAsiento6.TabIndex = 41;
+            this.chkAsiento6.Text = "asiento 6";
+            this.chkAsiento6.UseVisualStyleBackColor = true;
+            // 
+            // chkAsiento7
+            // 
+            this.chkAsiento7.AutoSize = true;
+            this.chkAsiento7.Location = new System.Drawing.Point(290, 323);
+            this.chkAsiento7.Name = "chkAsiento7";
+            this.chkAsiento7.Size = new System.Drawing.Size(69, 17);
+            this.chkAsiento7.TabIndex = 42;
+            this.chkAsiento7.Text = "asiento 7";
+            this.chkAsiento7.UseVisualStyleBackColor = true;
+            // 
+            // chkAsiento8
+            // 
+            this.chkAsiento8.AutoSize = true;
+            this.chkAsiento8.Location = new System.Drawing.Point(376, 323);
+            this.chkAsiento8.Name = "chkAsiento8";
+            this.chkAsiento8.Size = new System.Drawing.Size(69, 17);
+            this.chkAsiento8.TabIndex = 43;
+            this.chkAsiento8.Text = "asiento 8";
+            this.chkAsiento8.UseVisualStyleBackColor = true;
+            // 
+            // chkAsiento9
+            // 
+            this.chkAsiento9.AutoSize = true;
+            this.chkAsiento9.Location = new System.Drawing.Point(105, 349);
+            this.chkAsiento9.Name = "chkAsiento9";
+            this.chkAsiento9.Size = new System.Drawing.Size(69, 17);
+            this.chkAsiento9.TabIndex = 44;
+            this.chkAsiento9.Text = "asiento 9";
+            this.chkAsiento9.UseVisualStyleBackColor = true;
+            // 
+            // chkasiento10
+            // 
+            this.chkasiento10.AutoSize = true;
+            this.chkasiento10.Location = new System.Drawing.Point(208, 349);
+            this.chkasiento10.Name = "chkasiento10";
+            this.chkasiento10.Size = new System.Drawing.Size(75, 17);
+            this.chkasiento10.TabIndex = 45;
+            this.chkasiento10.Text = "asiento 10";
+            this.chkasiento10.UseVisualStyleBackColor = true;
+            // 
+            // chkasiento11
+            // 
+            this.chkasiento11.AutoSize = true;
+            this.chkasiento11.Location = new System.Drawing.Point(290, 353);
+            this.chkasiento11.Name = "chkasiento11";
+            this.chkasiento11.Size = new System.Drawing.Size(75, 17);
+            this.chkasiento11.TabIndex = 46;
+            this.chkasiento11.Text = "asiento 11";
+            this.chkasiento11.UseVisualStyleBackColor = true;
+            // 
+            // chkAsiento12
+            // 
+            this.chkAsiento12.AutoSize = true;
+            this.chkAsiento12.Location = new System.Drawing.Point(376, 353);
+            this.chkAsiento12.Name = "chkAsiento12";
+            this.chkAsiento12.Size = new System.Drawing.Size(75, 17);
+            this.chkAsiento12.TabIndex = 47;
+            this.chkAsiento12.Text = "asiento 12";
+            this.chkAsiento12.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(32, 279);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(49, 13);
+            this.label17.TabIndex = 48;
+            this.label17.Text = "Butacas:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(887, 503);
+            this.ClientSize = new System.Drawing.Size(889, 462);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.chkAsiento12);
+            this.Controls.Add(this.chkasiento11);
+            this.Controls.Add(this.chkasiento10);
+            this.Controls.Add(this.chkAsiento9);
+            this.Controls.Add(this.chkAsiento8);
+            this.Controls.Add(this.chkAsiento7);
+            this.Controls.Add(this.chkAsiento6);
+            this.Controls.Add(this.chkAsiento5);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.rdCombo3);
             this.Controls.Add(this.rdCombo2);
@@ -411,11 +531,10 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.cmbBebidas);
             this.Controls.Add(this.cmbSnacks);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.chkAsiento4);
+            this.Controls.Add(this.chkAsiento3);
+            this.Controls.Add(this.chkAsiento2);
             this.Controls.Add(this.cmbPeliculas);
-            this.Controls.Add(this.listView1);
             this.Controls.Add(this.textNombre);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -423,7 +542,7 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.chkAsiento1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
@@ -446,7 +565,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chkAsiento1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
@@ -454,11 +573,10 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textNombre;
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ComboBox cmbPeliculas;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox chkAsiento2;
+        private System.Windows.Forms.CheckBox chkAsiento3;
+        private System.Windows.Forms.CheckBox chkAsiento4;
         private System.Windows.Forms.ComboBox cmbSnacks;
         private System.Windows.Forms.ComboBox cmbBebidas;
         private System.Windows.Forms.Label label13;
@@ -473,6 +591,17 @@
         private System.Windows.Forms.RadioButton rdCombo2;
         private System.Windows.Forms.RadioButton rdCombo3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.CheckBox chkAsiento5;
+        private System.Windows.Forms.CheckBox chkAsiento6;
+        private System.Windows.Forms.CheckBox chkAsiento7;
+        private System.Windows.Forms.CheckBox chkAsiento8;
+        private System.Windows.Forms.CheckBox chkAsiento9;
+        private System.Windows.Forms.CheckBox chkasiento10;
+        private System.Windows.Forms.CheckBox chkasiento11;
+        private System.Windows.Forms.CheckBox chkAsiento12;
+        private System.Windows.Forms.Label label17;
     }
 }
 
