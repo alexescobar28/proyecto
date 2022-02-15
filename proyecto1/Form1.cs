@@ -15,6 +15,41 @@ namespace proyecto1
         public Form1()
         {
             InitializeComponent();
+
+           
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+                
+            
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int indice=cmbPeliculas.SelectedIndex;
+            if (indice == 0)
+            {
+                pictureBox1.Image = proyecto1.Properties.Resources.Avengers;
+            }
+            if (indice == 1)
+            {
+                pictureBox1.Image = proyecto1.Properties.Resources.Spide_rman;
+            }
+            if (indice == 2)
+            {
+                pictureBox1.Image = proyecto1.Properties.Resources.Insidious;
+            }
+            if (indice == 3)
+            {
+                pictureBox1.Image = proyecto1.Properties.Resources.John_Wick;
+            }
+            if (indice == 4)
+            {
+                pictureBox1.Image = proyecto1.Properties.Resources.Son_como_niños;
+            }
         }
     }
 }
