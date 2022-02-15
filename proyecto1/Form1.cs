@@ -51,5 +51,10 @@ namespace proyecto1
                 pictureBox1.Image = proyecto1.Properties.Resources.Son_como_niños;
             }
         }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
